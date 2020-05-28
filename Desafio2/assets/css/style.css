@@ -1,13 +1,80 @@
 @charset "utf-8";
 *{
-  background-color: red;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
   list-style-type: none;
+  font-family: monospace;
 }
 .center{
-  max-width: 800px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 .clear{clear: both;}
+/*  */
+header h1{
+  margin: 20px 5px;
+  text-transform: uppercase;
+}
+main {
+  text-align: center;
+}
+main input {
+  width: 80%;
+  padding: 8px 5px;
+  font-size: 18px;
+  outline: 0;
+  border: 0;
+  border-bottom: 1px solid rgba(240, 2, 2, 0.7);
+}
+section.searchEngine {
+  display: flex;
+  justify-content: center;
+}
+section.searchEngine .search, .addSearch{
+  width: 40%;
+  margin: 20px 10px;
+  text-align: center;
+  border: 1px solid rgba(30, 30, 30, 0.3);
+  border-radius: 10px;
+
+}
+.country{
+  display: flex;
+  margin: 10px 0 10px 18px;
+  align-items: center;
+  height: 70px;
+}
+.country h3{
+  width: 50%;
+  text-align: left;
+  flex-wrap: wrap;
+}
+.country p{
+  
+}
+.addCountriy::before {
+  content: "+";
+  background-color: green;
+  margin: 20px 15px 20px 0;
+  padding: 4px 10px;
+  cursor: pointer;
+}
+.flag{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  
+}
+section.searchEngine .search ul li{
+  margin: 45px 0;  
+  font-size: 20px;
+  text-align: left;
+  font-weight: 400;
+  margin: 10px 5px;
+}
+section.searchEngine .addSearch {
+  
+  
+}

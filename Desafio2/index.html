@@ -8,12 +8,31 @@
         <title>Desafio 02</title>
     </head>
     <body>
+        <header>
+            <div class="center">
+                <h1>Seach Countries</h1>
+            </div><!--center-->
+        </header>
         <main class="container">
             <div class="center">
-                <input type="text" name="" id="searchCountries">
+                <input type="text" name="" id="searchCountries" onkeyup="">
             </div><!--center-->
         </main>
-
+        <section>
+            <div class="center">
+                <section class="searchEngine">
+                    <div class="search" id="search">
+                        <h2>Países Disponveis(<span id="countryAmount"></span>)</h2>
+                        <p>População: <span id="populationAmount"></span></p>
+                        
+                    </div><!--search-->
+                    <div class="addSearch">
+                        <h2>Países()</h2>
+                        <p>População:</p>
+                    </div><!--addSearch-->
+                </section>
+            </div><!--center-->
+        </section>
         <script src="./assets/js/script.js"></script>
     </body>
 </html>
