@@ -55,7 +55,6 @@ function activateInput(){
 //
 function render(){
   function createDeleteButton(index){
-    
     function deleteName(){
       //globalNames.splice(index, 1) Utilizando o filter
       // globalNames = globalNames.filter((name, i) => {//O i é indice como se for o i no for o que controla quantas vezes o for deve executar com incrementação

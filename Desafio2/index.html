@@ -10,25 +10,30 @@
     <body>
         <header>
             <div class="center">
-                <h1>Seach Countries</h1>
+                <h1>Countries</h1>
             </div><!--center-->
         </header>
-        <main class="container">
-            <div class="center">
-                <input type="text" name="" id="searchCountries" onkeyup="">
-            </div><!--center-->
-        </main>
         <section>
             <div class="center">
-                <section class="searchEngine">
-                    <div class="search" id="search">
-                        <h2>Países Disponveis(<span id="countryAmount"></span>)</h2>
-                        <p>População: <span id="populationAmount"></span></p>
+                <section class="engine">
+                    <div class="search" >
+                        <div>
+                            <h2>Países Disponveis(<span id="countryAmount"></span>)</h2>
+                            <p>População: <span id="populationAmount"></span></p>
+                        </div>
+                        <div id="listCountry"></div>
+                    
                         
                     </div><!--search-->
-                    <div class="addSearch">
-                        <h2>Países()</h2>
-                        <p>População:</p>
+                    <div class="addSearch" >
+                        <div>
+                            <h2>Países(<span id="favoriteCountries"></span>)</h2>
+                            <p>População: <span id="favorite-population"></span></p>
+                        </div>
+                        <div id="addCountry">
+                        </div>
+                        <!-- <div class="tabFavorite"></div> -->
+                        
                     </div><!--addSearch-->
                 </section>
             </div><!--center-->

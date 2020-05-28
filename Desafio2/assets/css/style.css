@@ -17,22 +17,18 @@ header h1{
   margin: 20px 5px;
   text-transform: uppercase;
 }
+body{
+  background-color: #e4e4e4;
+}
 main {
   text-align: center;
 }
-main input {
-  width: 80%;
-  padding: 8px 5px;
-  font-size: 18px;
-  outline: 0;
-  border: 0;
-  border-bottom: 1px solid rgba(240, 2, 2, 0.7);
-}
-section.searchEngine {
+
+section.engine {
   display: flex;
   justify-content: center;
 }
-section.searchEngine .search, .addSearch{
+section.engine .search, .addSearch{
   width: 40%;
   margin: 20px 10px;
   text-align: center;
@@ -47,27 +43,29 @@ section.searchEngine .search, .addSearch{
   height: 70px;
 }
 .country h3{
-  width: 50%;
+  width: 100%;
   text-align: left;
   flex-wrap: wrap;
 }
 .country p{
-  
+  text-align: left;
 }
-.addCountriy::before {
+.addCountry {
+  border: 0;
   content: "+";
   background-color: green;
   margin: 20px 15px 20px 0;
-  padding: 4px 10px;
+  padding: 5px 10px;
   cursor: pointer;
+  border-radius: 5px;
 }
-.flag{
+img{
   width: 50px;
   height: 50px;
   border-radius: 50%;
   
 }
-section.searchEngine .search ul li{
+section.engine .search ul li{
   margin: 45px 0;  
   font-size: 20px;
   text-align: left;
