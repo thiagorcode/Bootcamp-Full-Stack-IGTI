@@ -4,7 +4,12 @@
 <p></p>
 
 ## Objetivos
+
 <p></p>
+
 ## Exemplo
+
 <img src="" alt="Exemplo do Trabalho"/>
+
 ## Resultado Final
+
