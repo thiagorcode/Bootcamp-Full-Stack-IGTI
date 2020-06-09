@@ -1,0 +1,15 @@
+{
+  "name": "estados-api",
+  "version": "1.0.0",
+  "description": "Trabalho Bootcamp IGTI FullStack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thiago Rodrigues",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "type": "module"
+}
