@@ -149,7 +149,16 @@ router.get("/best/:subject/:type", async (req, res) => {
   let subject = req.params.subject;
   let type = req.params.type;
   try {
+    let storage = await readOneFile();
+    storage = storage.grades.filter(searchType => searchType.type == type)
+    .filter(searchSubject => searchSubject.subject == subject);
     
+    let bestGrade = storage.sort((a, b) => {
+      return b.value - a.value;
+    })
+    bestGrade.splice(3, Number.MAX_VALUE); // Remove elementos a parti do indice 3 até o número máximo do JavaScript
+
+    res.send(bestGrade)
     res.end();
   } catch (error) {
     res.status(400).send("Dados não encontrados!" + error)
