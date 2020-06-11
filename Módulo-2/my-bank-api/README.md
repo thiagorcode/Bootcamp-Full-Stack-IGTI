@@ -8,4 +8,4 @@ Atividade realizada pelo professor Instituto de Gestão e Tecnologia da Informar
 
 O intuito é criar uma API que simule transações bancárias. A mesma contém opções de cadastrar novos clientes, fazer atualização, deletar, consulta e saques.
  
- - Foi praticado 
+ - Exercitar os conceitos trabalhados no módulo para criação de uma API, criando endpoints utilizando Node.js e Express.
