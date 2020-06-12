@@ -1,0 +1,7 @@
+// const ul = document.querySelector("#data");
+   // const li = document.createElement("li")
+
+   // clickArray.forEach(liDate => {
+      
+   //    ul.appendChild(li);
+   //    
