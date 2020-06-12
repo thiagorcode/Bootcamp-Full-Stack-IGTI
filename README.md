@@ -1,7 +1,8 @@
 # Bootcamp-Full-Stack-IGTI-Maio-2020
 
 ## Módulos
-<a href="https://github.com/thiagorcode/Bootcamp-Full-Stack-IGTI/tree/master/Módulo-1">1 - Fundamentos - Desenvolvedor Full Stack</a>
+[1 - Fundamentos - Desenvolvedor Full Stack](https://github.com/thiagorcode/Bootcamp-Full-Stack-IGTI/tree/master/Módulo-1 "1 - Fundamentos - Desenvolvedor Full Stack")
 
-<a href="https://github.com/thiagorcode/Bootcamp-Full-Stack-IGTI/tree/master/M%C3%B3dulo-2">2 - Desenvolvimento de APIs</a>
- 
+[2 - Desenvolvimento de APIs](https://github.com/thiagorcode/Bootcamp-Full-Stack-IGTI/tree/master/M%C3%B3dulo-2 "2 - Desenvolvimento de APIs")
+
+[3 - Front-End com React](https://github.com/thiagorcode/Bootcamp-Full-Stack-IGTI/tree/master/Módulo-3 "Front-End com React")
