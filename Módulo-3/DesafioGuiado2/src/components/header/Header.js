@@ -11,8 +11,8 @@ export default class Header extends Component {
   };
 
   render() {
-    const { filter, countryCount, totalPopulation } = this.props;
-
+    const { filter, countryCount, totalPopulation, onCalculated } = this.props;
+    onCalculated(event);
     return (
       <div className={css.flexRow}>
         <input

@@ -1,14 +1,11 @@
 import React, { Component } from 'react'
 
 export default class CalculatedInss extends Component {
-  handleValue = () => {
-    console.log(this.props);
-    const { } = this.props;
 
-  }
   render() {
-    console.log(this.props);
-    const { inss } = this.props;
+
+    const { inss, percent } = this.props;
+
     return (
       <div>
         <span>Desconto INSS:</span>
@@ -16,7 +13,8 @@ export default class CalculatedInss extends Component {
           type="text"
           placeholder="Desconsto INSS"
           readOnly
-          value={inss}
+          value={`R$ ${inss} (${percent}%)`}
+          style={{ color: "rgb(243, 139, 3)" }}
         />
 
       </div>

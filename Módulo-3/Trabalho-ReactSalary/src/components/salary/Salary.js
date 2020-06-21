@@ -1,12 +1,15 @@
 import React, { Component } from 'react'
+import { calculateSalaryFrom } from "./calculated/salary"
 
 export default class Salary extends Component {
 
   handleInputChange = (event) => {
     const inseridSalary = event.target.value;
+    let calculated = calculateSalaryFrom(inseridSalary)
 
-    this.props.onChanged(inseridSalary)
+    this.props.onChanged(calculated, inseridSalary)
   }
+
   render() {
     const { salary } = this.props
     return (
@@ -17,15 +20,9 @@ export default class Salary extends Component {
           placeholder="Digite seu salário aqui"
           value={salary}
           onChange={this.handleInputChange}
+
         />
-        <span>Base INSS:</span>
-        <input
-          type="text"
-          readOnly
-          placeholder="Base INSS"
-          value={salary}
-          min="1000"
-        />
+
       </div>
     )
   }
