@@ -1,0 +1,25 @@
+react-radio-podcast ✓
+=====================
+
+(✓) Estudar Back End
+  (✓) Apresentar json-server
+  (✓) Mostrar script de inicialização em package.json 
+  (✓) Iniciar back end e ver opções
+
+(✓) Front End
+  (✓) Criar state para:
+     - selectedStation: '88.5',
+     - selectedPodcast: {},
+     - podcasts: []
+
+  (✓) Criar componente Title 
+  (✓) Criar componente Station 
+  () Criar componente Podcast 
+
+  (✓) Implementar onChangeStation em App.js
+     e utilizar em Station, com handleStationChange
+  (✓) Implementar componentDidMount
+  (✓) Implementar componentDidUpdate
+  () Estilizar App
+
+
