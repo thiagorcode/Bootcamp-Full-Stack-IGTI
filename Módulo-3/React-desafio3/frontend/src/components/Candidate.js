@@ -11,7 +11,7 @@ import css from "./candidate.module.css"
 import { formatNumber, formatPercentage } from './helpers/formatHelpers'
 
 export default function Candidate({ candidate, position }) {
-  const { id, name, votes, percentage, popularity } = candidate
+  const { id, name, votes, percentage, popularity, previousVotes } = candidate
 
   const imageSource = `${id}.jpg`;
 
@@ -21,7 +21,7 @@ export default function Candidate({ candidate, position }) {
       <Picture imageSource={imageSource} description={name} />
       <Info >
         <Name>{name}</Name>
-        <Votes>{formatNumber(votes)}</Votes>
+        <Votes value={votes} previous={previousVotes} />
         <Percentage>{formatPercentage(percentage)}</Percentage>
         <Popularity value={popularity} />
       </Info>

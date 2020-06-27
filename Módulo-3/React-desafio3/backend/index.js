@@ -60,6 +60,7 @@ function fillCandidates() {
       id: 1,
       name: 'Violino',
       votes: 0,
+      previousVotes: 0,
       percentage: 0,
       popularity: CONSTS.MIN_POPULARITY,
     },
@@ -68,6 +69,7 @@ function fillCandidates() {
       id: 2,
       name: 'Viola',
       votes: 0,
+      previousVotes: 0,
       percentage: 0,
       popularity: CONSTS.MIN_POPULARITY,
     },
@@ -76,6 +78,7 @@ function fillCandidates() {
       id: 3,
       name: 'Violoncelo',
       votes: 0,
+      previousVotes: 0,
       percentage: 0,
       popularity: CONSTS.MIN_POPULARITY,
     },
@@ -91,7 +94,10 @@ function simulateVoting() {
       const minVotes = CONSTS.MIN_VOTES;
       const maxVotes = CONSTS.MAX_VOTES * candidate.popularity;
 
-      candidate.votes += generateRandomNumber(minVotes, maxVotes);
+      const votes = generateRandomNumber(minVotes, maxVotes);
+
+      candidate.previousVotes = candidate.votes
+      candidate.votes += votes;
     });
   }, CONSTS.INTERVAL_VOTES);
 }
