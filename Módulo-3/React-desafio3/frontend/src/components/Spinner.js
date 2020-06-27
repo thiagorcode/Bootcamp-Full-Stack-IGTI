@@ -1,8 +1,9 @@
 import React from 'react'
+import css from "./sppiner.module.css"
 
 export default function Spinner({ description }) {
   return (
-    <div>
+    <div className={css.flexRow}>
       <div className="preloader-wrapper active">
         <div className="spinner-layer spinner-red-only">
           <div className="circle-clipper left">
@@ -14,7 +15,7 @@ export default function Spinner({ description }) {
           </div>
         </div>
       </div>
-      <dir>{description}</dir>
+      <div style={{ fontSize: "2rem", marginLeft: "10px" }}>{description}</div>
     </div>
   )
 }

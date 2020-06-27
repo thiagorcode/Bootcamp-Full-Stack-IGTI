@@ -1,6 +1,4 @@
-.card {
-  border: 1px solid lightgray;
-  padding: 5px;
-  margin: 5px;
-  border-radius: 5px;
+.cardExtra {
+  padding: 10px;
+  margin: 10px;
 }

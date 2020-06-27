@@ -58,7 +58,7 @@ function fillCandidates() {
   candidates = [
     {
       id: 1,
-      name: 'Marco Minnemann',
+      name: 'Violino',
       votes: 0,
       percentage: 0,
       popularity: CONSTS.MIN_POPULARITY,
@@ -66,7 +66,7 @@ function fillCandidates() {
 
     {
       id: 2,
-      name: 'Mike Portnoy',
+      name: 'Viola',
       votes: 0,
       percentage: 0,
       popularity: CONSTS.MIN_POPULARITY,
@@ -74,7 +74,7 @@ function fillCandidates() {
 
     {
       id: 3,
-      name: 'Neil Peart',
+      name: 'Violoncelo',
       votes: 0,
       percentage: 0,
       popularity: CONSTS.MIN_POPULARITY,

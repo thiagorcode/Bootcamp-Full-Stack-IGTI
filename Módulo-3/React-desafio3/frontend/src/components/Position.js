@@ -1,9 +1,9 @@
 import React from 'react'
+import css from "./postion.module.css"
 
 export default function Position({ children }) {
-  return (
-    <div>
-      {children}
-    </div>
-  )
+  return <div className={css.position}>
+    {children}
+  </div>
+
 }
