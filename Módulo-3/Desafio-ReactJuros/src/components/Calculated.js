@@ -1,35 +1,38 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react';
+import { formatPercentage } from "../helpers/formatHelpers"
 
 export default function Calculated({ calculated }) {
-   const [initialValue, setInitialValue] = useState(0);
+   const [initialValue, setInitialValue] = useState(1000);
    const [initialTaxe, setInitialTaxe] = useState(0);
    const [initialTime, setInitialTime] = useState(0)
 
-   const handleInputValue = (event) => {
-      setInitialValue(+event.target.value)
-   }
-
-   const handleInputTaxe = (event) => {
-      setInitialTaxe(event.target.value)
-   }
-
-   const handleInputTime = (event) => {
-      setInitialTime(event.target.value)
-   }
-
-   const handleSendCalculated = (event) => {
-      event.preventDefault()
-
+   useEffect(() => {
       const formData = {
          initialValue,
          initialTaxe,
          initialTime,
       }
       calculated(formData)
+
+   }, [initialValue, initialTaxe, initialTime])
+
+   const handleInputValue = (event) => {
+      setInitialValue(+event.target.value)
    }
+
+   const handleInputTaxe = (event) => {
+      setInitialTaxe(+event.target.value)
+   }
+
+   const handleInputTime = (event) => {
+      setInitialTime(+event.target.value)
+   }
+
+   let taxeAA = initialTaxe * 12;
+
    return (
       <div>
-         <form onSubmit={handleSendCalculated} style={styles.flexRow}  >
+         <form style={styles.flexRow}  >
             <div className="input-field" style={styles.container}>
                <input
                   type="number"
@@ -37,6 +40,7 @@ export default function Calculated({ calculated }) {
                   step="1"
                   autoFocus
                   min="1"
+                  value={initialValue}
                   onChange={handleInputValue}
                />
                <label className="active" htmlFor="montaded">
@@ -48,25 +52,24 @@ export default function Calculated({ calculated }) {
                   type="number"
                   id="taxe"
                   step="0.01"
+                  value={initialTaxe}
                   onChange={handleInputTaxe}
                />
                <label className="active" htmlFor="taxe">
-                  Taxa de Juros (Ao Mês):
+                  Taxa de Juros (Ao Mês) | {formatPercentage(taxeAA)} (Ao ano):
                </label>
             </div>
             <div className="input-field" style={styles.container}>
                <input
                   type="number"
                   id="time"
+                  value={initialTime}
                   onChange={handleInputTime}
                />
                <label className="active" htmlFor="time">
                   Período (Mensal):
                </label>
             </div>
-            <button className="waves-effect waves-light btn">
-               Calcular
-            </button>
          </form>
       </div>
    )

@@ -1,6 +1,7 @@
 const formatter = Intl.NumberFormat("pt-BR");
 
 function formatNumber(value) {
+   value = value.toFixed(2);
    return formatter.format(value);
 }
 function formatPercentage(value) {

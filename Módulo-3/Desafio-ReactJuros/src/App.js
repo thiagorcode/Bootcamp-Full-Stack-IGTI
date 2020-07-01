@@ -1,11 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import Calculated from './components/Calculated';
 import Income from './components/Income';
 
 export default function App() {
   const [reportSheet, setReportSheet] = useState([])
-
-  // Usar useEffect para atualizar sem o botão.
 
   const handleCalculated = ({ initialValue, initialTaxe, initialTime }) => {
     let recipeTable = []

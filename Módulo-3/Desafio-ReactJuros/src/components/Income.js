@@ -8,19 +8,19 @@ export default function Income({ currentValue }) {
       <div className={css.flexRow}>
          {
             currentValue.map(block => {
-               const { recipe, id, initialValue, stonks, taxe, currentPercetange } = block
+               const { recipe, id, stonks, taxe, currentPercetange } = block
                let styleSheet = ""
                if (taxe > 0) {
-                  styleSheet = styles.positive
+                  styleSheet = "green"
                } else {
-                  styleSheet = styles.negative
+                  styleSheet = "red"
                }
                return (
                   <div key={id} className={css.container}>
                      <span>{id}</span>
                      <ul >
-                        <li style={styleSheet}>{formatNumber(recipe)}</li>
-                        <li>{formatNumber(stonks)}</li>
+                        <li style={{ color: styleSheet }}>{formatNumber(recipe)}</li>
+                        <li style={{ color: styleSheet }}>{formatNumber(stonks)}</li>
                         <li>{formatPercentage(currentPercetange)}</li>
                      </ul>
                   </div>
@@ -29,12 +29,4 @@ export default function Income({ currentValue }) {
          }
       </div>
    )
-}
-const styles = {
-   positive: {
-      color: "green",
-   },
-   negative: {
-      color: "red"
-   }
 }
