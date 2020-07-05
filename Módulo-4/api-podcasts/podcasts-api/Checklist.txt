@@ -1,0 +1,11 @@
+Checklist Primeira aula ✓
+
+(✓) Import do banco
+(✓) Plano de execução
+(✓) Criação de index
+(✓) Hands-on: Importação .json
+(✓) Hands-on: Modelo podcasts
+(✓) Hands-on: Controller podcasts 
+    (create, findAll, findOne, update, remove, removeAll)
+(✓) Hands-on: Routes podcasts
+(✓) Hands-on: Pacote dotenv

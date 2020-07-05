@@ -5,7 +5,7 @@ import Income from './components/Income';
 export default function App() {
   const [reportSheet, setReportSheet] = useState([])
 
-  const handleCalculated = ({ initialValue, initialTaxe, initialTime }) => {
+  const handleCalculated = ({ initialValue, initialTaxe, initialTime, increment }) => {
     let recipeTable = []
 
     initialValue = parseInt(initialValue, 10);
@@ -13,7 +13,8 @@ export default function App() {
     initialTaxe = initialTaxe / 100;
 
     for (var i = 1; i <= initialTime; i++) {
-      let currentRate = (1 + initialTaxe) ** i
+      initialValue += increment;
+      let currentRate = (1 + initialTaxe) ** i;
       let recipe = initialValue * currentRate;
       let stonks = recipe - initialValue;
       let percetange = (stonks / initialValue) * 100;
