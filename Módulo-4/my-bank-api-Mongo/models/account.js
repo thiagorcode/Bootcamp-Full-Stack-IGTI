@@ -22,12 +22,14 @@ const accountsSchema = mongoose.Schema({
    balance: {
       type: Number,
       required: true,
+      min: 0,
       validate(balance) {
-         if (balance < 0) throw new Error("Não possível retirar seu balanço")
+         if (balance < 0) throw new Error("Não é possível fazer transferência com esse valor!")
       }
    },
 })
 
 const accountsModel = mongoose.model("accounts", accountsSchema, "accounts")
+
 
 export { accountsModel }
