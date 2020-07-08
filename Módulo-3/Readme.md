@@ -2,25 +2,25 @@
 
 ## Exercícios 
 
- - [x] [React-Component-did-update](https://github.com/thiagorcode/Bootcamp-Full-Stack-IGTI/tree/master/M%C3%B3dulo-2/my-bank-api "React-Component-did-update") 
+ - [React-Component-did-update](https://github.com/thiagorcode/Bootcamp-Full-Stack-IGTI/tree/master/M%C3%B3dulo-2/my-bank-api "React-Component-did-update") 
 
- - [x] [React-Desafio 1](https://github.com/thiagorcode/Bootcamp-Full-Stack-IGTI/tree/master/M%C3%B3dulo-2/Camp_brasileiro "React-Desafio 1")
+ - [React-Desafio 1](https://github.com/thiagorcode/Bootcamp-Full-Stack-IGTI/tree/master/M%C3%B3dulo-2/Camp_brasileiro "React-Desafio 1")
 
- - [x] [React-Desafio 2](https://github.com/thiagorcode/Bootcamp-Full-Stack-IGTI/tree/master/M%C3%B3dulo-2/Camp_brasileiro "React-Desafio 2")
+ - [React-Desafio 2](https://github.com/thiagorcode/Bootcamp-Full-Stack-IGTI/tree/master/M%C3%B3dulo-2/Camp_brasileiro "React-Desafio 2")
 
- - [x] [React-Desafio 3](https://github.com/thiagorcode/Bootcamp-Full-Stack-IGTI/tree/master/M%C3%B3dulo-2/Camp_brasileiro "React-Desafio 3")
+ - [React-Desafio 3](https://github.com/thiagorcode/Bootcamp-Full-Stack-IGTI/tree/master/M%C3%B3dulo-2/Camp_brasileiro "React-Desafio 3")
 
- - [x] [React-Desafio 4](https://github.com/thiagorcode/Bootcamp-Full-Stack-IGTI/tree/master/M%C3%B3dulo-2/Camp_brasileiro "React-Desafio 4")
+ - [React-Desafio 4](https://github.com/thiagorcode/Bootcamp-Full-Stack-IGTI/tree/master/M%C3%B3dulo-2/Camp_brasileiro "React-Desafio 4")
 
- - [x] [React-Hooks](https://github.com/thiagorcode/Bootcamp-Full-Stack-IGTI/tree/master/M%C3%B3dulo-2/Camp_brasileiro "React-Hooks")
+ - [React-Hooks](https://github.com/thiagorcode/Bootcamp-Full-Stack-IGTI/tree/master/M%C3%B3dulo-2/Camp_brasileiro "React-Hooks")
 
- - [x] [React-radio-podcast](https://github.com/thiagorcode/Bootcamp-Full-Stack-IGTI/tree/master/M%C3%B3dulo-2/Camp_brasileiro "React-radio-podcast")
+ - [React-radio-podcast](https://github.com/thiagorcode/Bootcamp-Full-Stack-IGTI/tree/master/M%C3%B3dulo-2/Camp_brasileiro "React-radio-podcast")
 
 
 ## Trabalhao Prático
- - [x] [React Salary](https://github.com/thiagorcode/Bootcamp-Full-Stack-IGTI/tree/master/M%C3%B3dulo-2/Estados-Api "React Salary") 
+ - [React Salary](https://github.com/thiagorcode/React-Salary "React Salary") 
 
 ## Desafio
 
- - [x] [React Juros Compostos](https://github.com/thiagorcode/Bootcamp-Full-Stack-IGTI/tree/master/M%C3%B3dulo-2/Desafio-1 "React Juros Compostos") 
+ - [React Juros Compostos](https://github.com/thiagorcode/React-Juros-Compostos "React Juros Compostos") 
 

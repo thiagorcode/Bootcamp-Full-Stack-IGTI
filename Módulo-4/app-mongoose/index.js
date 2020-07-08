@@ -4,7 +4,7 @@ import mongoose from 'mongoose';
 (async () => {
    try {
       await mongoose.connect(
-         'mongodb+srv://dbaserver:servidor123@cluster0.dnlgo.gcp.mongodb.net/dbaserver?retryWrites=true&w=majority',
+         'URL DO BANCO DE DADOS',
          {
             useNewUrlParser: true,
             useUnifiedTopology: true,

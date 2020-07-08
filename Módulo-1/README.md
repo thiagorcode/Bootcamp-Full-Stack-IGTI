@@ -1,11 +1,14 @@
 # Bootcamp-Full-Stack-IGTI-Maio-2020
 
 ## Exercícios
-<p>1 -<a href="https://github.com/thiagorcode/Bootcamp-Full-Stack-IGTI/tree/master/Módulo-1/JavaSript-Crud">Crud com HTML, CSS e JavaScript</a></p>
-<p>2 -<a href="https://github.com/thiagorcode/Bootcamp-Full-Stack-IGTI/tree/master/Módulo-1/Countries">Countries</a></p>
+
+   -  [Crud com HTML, CSS e JavaScript](https://github.com/thiagorcode/Bootcamp-Full-Stack-IGTI/tree/master/Módulo-1/JavaSript-Crud "Crud com HTML, CSS e JavaScript")
+   -  [Countries](https://github.com/thiagorcode/Bootcamp-Full-Stack-IGTI/tree/master/Módulo-1/Countries "Countries")
 
 ## Trabalho Prático
-<p>1 -<a href="https://github.com/thiagorcode/Generate_Color">Trabalho</a></p>
-
+   
+   - [Color Generator](https://github.com/thiagorcode/Color-Generator "Color Generator")
+      
 ## Desafio
-<p>1 -<a href="https://github.com/thiagorcode/SearchUsers">Desafio</a></p>
+
+   - [Registration of Names](https://github.com/thiagorcode/Registration-of-Names "Registration of Names")
