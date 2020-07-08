@@ -2,7 +2,7 @@
 
 ## Exercícios
 
-   -  [Crud com HTML, CSS e JavaScript](https://github.com/thiagorcode/Bootcamp-Full-Stack-IGTI/tree/master/Módulo-1/JavaSript-Crud "Crud com HTML, CSS e JavaScript")
+   -  [Crud com HTML, CSS e JavaScript](https://github.com/thiagorcode/Bootcamp-Full-Stack-IGTI/tree/master/Módulo-1/UserSearch-JS "Crud com HTML, CSS e JavaScript")
    -  [Countries](https://github.com/thiagorcode/Bootcamp-Full-Stack-IGTI/tree/master/Módulo-1/Countries "Countries")
 
 ## Trabalho Prático
