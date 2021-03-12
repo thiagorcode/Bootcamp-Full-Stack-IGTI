@@ -1,0 +1,111 @@
+@charset "utf-8";
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: monospace;
+}
+.center{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.clear{clear: both;}
+/*  */
+header h1{
+  margin: 20px 5px;
+  text-align: center;
+  font-size: 64px;
+  text-transform: uppercase;
+}
+body{
+  background-color: #ebebeb;
+}
+main {
+  text-align: center;
+}
+
+section.engine {
+  display: flex;
+  justify-content: center;
+}
+
+section.engine .search, .addSearch{
+  width: 40%;
+  margin: 20px 10px;
+  text-align: center;
+  border: 1px solid rgba(30, 30, 30, 0.3);
+  border-radius: 10px;
+
+}
+section.engine .container-input {
+  width: 100%;
+  text-align: center;
+}
+section.engine .container-input input {
+  width: 50%;
+  padding: 10px 5px;
+  font-size: 18px;
+  outline: 0;
+  border: 0;
+  border-bottom: 1px solid rgba(132, 3, 252, 0.473);
+  background-color: #ebebeb;
+}
+section.engine button{
+  border: 0;
+  border-radius: 5px;
+  background-color: rgb(132, 3, 252);
+  padding: 8px 16px;
+  color: aliceblue;
+  cursor: pointer;
+}
+section .container-results {
+  margin: 20px 0;
+  display: flex;
+}
+section .container-results .box-results, .statistic {
+  width: 50%;
+  margin: 0 5px;
+  border-radius: 5px;
+  text-align: center;
+  border: 1px solid rgba(132, 3, 252, 0.473);
+}
+section .container-results .box-results, .statistic h3{
+  font-size: 30px;
+}
+section .container-results .box-results img{
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+  margin: 10px 5px;
+}
+section .container-results .container-dadoUser{
+  display: flex;
+  align-items: center;
+  border-radius: 5px ;
+  border: 1px solid rgba(132, 3, 252, 0.473);
+  margin: 5px ;
+  background-color: rgba(215, 175, 252, 0.473);
+  box-shadow: 2px 3px 12px rgba(132, 3, 252, 0.658);
+  animation: animation 1.5s;
+}
+@keyframes animation {
+  0%{
+    opacity: 0.1;
+    margin: 50px 100px;
+  }
+  100%{
+    opacity: 1;
+    margin: 5px;
+
+  }
+}
+section .container-results .statistic, .container-dadoUser p{
+  color: rgb(27, 1, 51);
+  font-size: 20px;
+  margin-left: 10px;
+}
+section .container-results .statistic h2{
+  margin: 10px 0;
+}
