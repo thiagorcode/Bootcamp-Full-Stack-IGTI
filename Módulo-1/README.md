@@ -2,8 +2,8 @@
 
 ## Exercícios
 
-   -  [Crud com HTML, CSS e JavaScript](https://github.com/thiagorcode/Bootcamp-Full-Stack-IGTI/tree/master/Módulo-1/UserSearch-JS "Crud com HTML, CSS e JavaScript")
-   -  [Countries](https://github.com/thiagorcode/Bootcamp-Full-Stack-IGTI/tree/master/Módulo-1/Countries "Countries")
+   -  [Crud com HTML, CSS e JavaScript](./User-Search-JS "Crud com HTML, CSS e JavaScript")
+   -  [Countries](./Countries "Countries")
 
 ## Trabalho Prático
    
@@ -11,4 +11,4 @@
       
 ## Desafio
 
-   - [Registration of Names](https://github.com/thiagorcode/Registration-of-Names "Registration of Names")
+   - [Registration of Names](Registration-of-Names "Registration of Names")
