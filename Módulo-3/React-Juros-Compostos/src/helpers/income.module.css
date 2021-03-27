@@ -1,0 +1,40 @@
+.flexRow {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+}
+.container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 1px solid rgba(0, 128, 0, 0.26);
+   border-radius: 10px;
+   width: 200px;
+   height: 125px;
+   margin: 5px;
+}
+.containerInput {
+   width: 20%;
+   margin: 8px;
+}
+span {
+   font-weight: bold;
+   font-size: 20px;
+}
+input {
+   text-align: center;
+}
+ul {
+   margin-left: 10px;
+}
+li:not(:nth-of-type(3)) {
+   font-size: 15px;
+   font-weight: bold;
+}
+@media screen and (max-width: 643px) {
+   .containerInput {
+      width: 50%;
+   }
+}
