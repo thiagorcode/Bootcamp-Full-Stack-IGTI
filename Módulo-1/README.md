@@ -7,7 +7,7 @@
 
 ## Trabalho Prático
    
-   - [Color Generator](https://github.com/thiagorcode/Color-Generator "Color Generator")
+   - [Color Generator](./Color-Generator "Color Generator")
       
 ## Desafio
 
