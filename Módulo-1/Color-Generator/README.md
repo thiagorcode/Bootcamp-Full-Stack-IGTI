@@ -1,6 +1,8 @@
 # Bootcamp-Full-Stack-IGTI-Maio-2020
 # Trabalho prático Módulo 1
 
+![](./assets/img/trabalho1.gif)
+
 ## Sobre
 
 Projeto desenvolvido como trabalho para a bootcamp Full-Stack da IGTI 
@@ -33,7 +35,3 @@ Exercitar os seguintes conceitos trabalhados no Módulo:
 ## Exemplo
 
 ![](./assets/img/Image12-36.jpg)
-
-## Resultado Final
-
-![](./assets/img/trabalho1.gif)
