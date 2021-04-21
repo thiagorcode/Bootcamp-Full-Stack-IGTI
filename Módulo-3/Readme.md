@@ -22,5 +22,5 @@
 
 ## Desafio
 
- - [React Juros Compostos](https://github.com/thiagorcode/React-Juros-Compostos "React Juros Compostos") 
+ - [React Juros Compostos](https://github.com/thiagorcode/Bootcamp-Full-Stack-IGTI/tree/master/Módulo-3/React-Juros-Compostos "React Juros Compostos") 
 
