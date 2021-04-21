@@ -18,7 +18,7 @@
 
 
 ## Trabalhao Prático
- - [React Salary](https://github.com/thiagorcode/React-Salary "React Salary") 
+ - [React Salary](https://github.com/thiagorcode/Bootcamp-Full-Stack-IGTI/tree/master/Módulo-3/React-Salary "React Salary") 
 
 ## Desafio
 
